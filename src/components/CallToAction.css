@@ -1,0 +1,230 @@
+.featured-cards {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.shop6 {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 48px;
+}
+.button4 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button4:hover {
+  background-color: #333;
+}
+.shop7 {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  min-width: 59px;
+}
+.button5,
+.shop-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.button5 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #edd5b1;
+  border-radius: 10px;
+  align-items: center;
+  white-space: nowrap;
+}
+.button5:hover {
+  background-color: #d4bd96;
+}
+.shop-buttons {
+  align-items: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.category-card-details {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.festivals1 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 66px;
+  color: black;
+}
+.category-cards {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  max-width: 100%;
+  text-decoration: none;
+}
+.category-cards-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.family {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 49px;
+}
+.category-cards1 {
+  height: 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  max-width: 100%;
+}
+.category-cards-item {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.close-ones {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 87px;
+}
+.category-cards2 {
+  height: 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  max-width: 100%;
+}
+.category-cards-inner {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.luxury {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 52px;
+}
+.category-cards3 {
+  height: 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  max-width: 100%;
+}
+.call-to-action,
+.categories-row {
+  align-self: stretch;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.categories-row {
+  display: grid;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  grid-template-columns: repeat(4, minmax(301px, 1fr));
+  font-size: 16px;
+}
+.call-to-action {
+  background-color: #efeae3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 80px 120px;
+  box-sizing: border-box;
+  gap: 32px;
+  text-align: center;
+  font-size: 32px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1500px) {
+  .categories-row {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(301px, 523px));
+  }
+}
+@media screen and (max-width: 1225px) {
+  .call-to-action {
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .featured-cards {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .shop-buttons {
+    flex-wrap: wrap;
+  }
+  .categories-row {
+    grid-template-columns: minmax(301px, 1fr);
+  }
+  .call-to-action {
+    gap: 16px;
+    padding: 52px 30px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .featured-cards {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

@@ -1,0 +1,367 @@
+.gift-card-image {
+  height: 340px;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 585px;
+}
+.giftcard-variant-1,
+.select-an-option {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+}
+.giftcard-variant-1 {
+  align-self: stretch;
+  line-height: 120%;
+  font-weight: 700;
+}
+.select-an-option {
+  line-height: 29px;
+  font-weight: 600;
+}
+.review-stars-child,
+.review-stars-child1,
+.review-stars-inner,
+.review-stars-item,
+.star-icon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  border-radius: 0.5px;
+  min-height: 25px;
+}
+.review-stars {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reviews1 {
+  position: relative;
+  line-height: 22px;
+}
+.dropdown,
+.option,
+.review-stars-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 16px;
+}
+.dropdown,
+.option {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 263px 0 0;
+  font-size: 24px;
+}
+.dropdown {
+  flex-direction: column;
+  padding: 0 0 5px;
+  gap: 24px;
+  font-size: 32px;
+}
+.quantity {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 65px;
+}
+.quantity-icon {
+  width: 15px;
+  height: 8px;
+  position: relative;
+}
+.quantity-input,
+.quantity-selector {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.quantity-input {
+  flex-direction: column;
+  padding: 7px 0 0;
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+}
+.quantity-selector {
+  border-radius: 10px;
+  background-color: #fff;
+  flex-direction: row;
+  padding: 12px 24px;
+  gap: 10px;
+}
+.shop11 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 56px;
+}
+.shop-wrapper {
+  border-radius: 10px;
+  background-color: #edd5b1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 24px;
+  white-space: nowrap;
+}
+.shop12 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 58px;
+}
+.shop-container {
+  border-radius: 10px;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 24px;
+  white-space: nowrap;
+  color: #fff;
+}
+.shop13 {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 58px;
+}
+.shop-frame {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button10:hover,
+.frame-button:hover,
+.shop-frame:hover {
+  background-color: #333;
+}
+.shop14 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 58px;
+}
+.frame-div {
+  border-radius: 10px;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 24px;
+  white-space: nowrap;
+  color: #fff;
+}
+.shop15 {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 66px;
+}
+.frame-button,
+.image-gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-button {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #000;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+.image-gallery {
+  gap: 12px;
+  max-width: 100%;
+}
+.as-a-single,
+.blank-line2,
+.the-gift-card {
+  margin: 0;
+}
+.the-gift-card-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 135%;
+}
+.shop16 {
+  position: relative;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 103px;
+}
+.button10 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.shop17 {
+  position: relative;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+}
+.button11,
+.shop-buttons1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button11 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #edd5b1;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+.button11:hover {
+  background-color: #d4bd96;
+}
+.shop-buttons1 {
+  gap: 36px;
+  max-width: 100%;
+}
+.description {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 18px;
+}
+.content,
+.description,
+.product-details1,
+.product-options {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.product-options {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 31px;
+}
+.content,
+.product-details1 {
+  box-sizing: border-box;
+}
+.product-details1 {
+  width: 756px;
+  flex-direction: column;
+  padding: 30.5px 0 0;
+  min-width: 756px;
+}
+.content {
+  align-self: stretch;
+  background-color: #efedeb;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 40px 120px;
+  gap: 24px;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1525px) {
+  .product-details1 {
+    flex: 1;
+  }
+  .content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .gift-card-image,
+  .product-details1 {
+    min-width: 100%;
+  }
+  .content {
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .giftcard-variant-1 {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .option {
+    padding-right: 131px;
+    box-sizing: border-box;
+  }
+  .image-gallery,
+  .option {
+    flex-wrap: wrap;
+  }
+  .product-options {
+    gap: 15px;
+  }
+  .content {
+    padding: 26px 30px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .giftcard-variant-1,
+  .select-an-option {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .option {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .shop-buttons1 {
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+}

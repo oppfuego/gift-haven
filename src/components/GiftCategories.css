@@ -1,0 +1,350 @@
+.shop8,
+.single-brand-gift {
+  position: relative;
+  display: inline-block;
+}
+.single-brand-gift {
+  margin: 0;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  max-width: 100%;
+}
+.shop8 {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  min-width: 48px;
+}
+.button6 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button6:hover {
+  background-color: #333;
+}
+.shop9 {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  min-width: 59px;
+}
+.button7 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #edd5b1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button7:hover {
+  background-color: #d4bd96;
+}
+.gift-card-shop-buttons {
+  position: absolute;
+  top: 80px;
+  left: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+  font-size: 32px;
+}
+.gift-card-type-details {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.festivals2 {
+  width: 106px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.gift-card-types {
+  position: absolute;
+  top: 158px;
+  left: 120px;
+  width: 402px;
+  height: 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.gift-card-types-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.family1 {
+  width: 89px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.gift-card-types1 {
+  position: absolute;
+  top: 158px;
+  left: 546px;
+  width: 402px;
+  height: 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.gift-card-types-item {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.close-ones1 {
+  width: 127px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.gift-card-types2 {
+  position: absolute;
+  top: 158px;
+  left: 972px;
+  width: 402px;
+  height: 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.gift-card-types-inner {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.luxury1 {
+  width: 92px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.gift-card-types3 {
+  position: absolute;
+  top: 158px;
+  left: 1398px;
+  width: 402px;
+  height: 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.frame-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.sports {
+  width: 91px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.gift-card-types4 {
+  position: absolute;
+  top: 456px;
+  left: 120px;
+  width: 402px;
+  height: 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.gift-card-types-child1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.travel {
+  width: 86px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.gift-card-types5 {
+  position: absolute;
+  top: 456px;
+  left: 546px;
+  width: 402px;
+  height: 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.gift-card-types-child2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.clothes {
+  width: 99px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.gift-card-types6 {
+  position: absolute;
+  top: 456px;
+  left: 972px;
+  width: 402px;
+  height: 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.gift-card-types-child3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.clothes1 {
+  width: 99px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.gift-card-types7 {
+  position: absolute;
+  top: 456px;
+  left: 1398px;
+  width: 402px;
+  height: 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.gift-categories {
+  align-self: stretch;
+  height: 802px;
+  position: relative;
+  background-color: #efeae3;
+  max-width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 850px) {
+  .single-brand-gift {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .gift-card-shop-buttons {
+    flex-wrap: wrap;
+  }
+  .gift-categories {
+    height: auto;
+    min-height: 802;
+  }
+}
+@media screen and (max-width: 450px) {
+  .single-brand-gift {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

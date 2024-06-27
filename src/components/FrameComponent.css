@@ -1,0 +1,62 @@
+.food-gift-card-content {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.food-gift-card {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.shop20 {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 68px;
+}
+.button14 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button14:hover {
+  background-color: #333;
+}
+.food-gift-card-content-parent {
+  height: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .food-gift-card {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

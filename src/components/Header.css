@@ -1,0 +1,211 @@
+.excellent,
+.out-of-5 {
+  position: relative;
+  line-height: 22px;
+}
+.excellent {
+  display: inline-block;
+  min-width: 69px;
+}
+.out-of-5 {
+  white-space: nowrap;
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.earn-15-points,
+.login-sign {
+  position: relative;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.login-sign {
+  width: 205px;
+  text-align: right;
+  display: inline-block;
+  flex-shrink: 0;
+  text-decoration: none;
+  color: black;
+}
+.rewards-login {
+  align-self: stretch;
+  background-color: #efeae3;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 9px 20px;
+  gap: 300px;
+}
+.gifthaven {
+  margin: 0;
+  width: 226.6px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  text-decoration: none;
+    color: #000;
+}
+.logo {
+  width: 198px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+.about,
+.blog,
+.contact,
+.platform,
+.shop4,
+.work {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 46px;
+}
+.blog,
+.contact,
+.platform,
+.shop4,
+.work {
+  min-width: 34px;
+}
+.contact,
+.platform,
+.shop4,
+.work {
+  min-width: 39px;
+}
+.contact,
+.platform,
+.shop4 {
+  min-width: 64px;
+}
+.contact,
+.shop4 {
+  min-width: 61px;
+}
+.shop4 {
+  min-width: 39px;
+  text-decoration: none;
+  color: black;
+}
+.nav-links,
+.navigation {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.nav-links {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Inter;
+}
+.navigation {
+  width: 388px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 13px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.shop5 {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 103px;
+}
+.button3 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #000;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button3:hover {
+  background-color: #333;
+}
+.button3,
+.header,
+.logo-nav,
+.shop-button {
+  display: flex;
+  align-items: flex-start;
+}
+.shop-button {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.header,
+.logo-nav {
+  align-self: stretch;
+  max-width: 100%;
+}
+.logo-nav {
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: center;
+  padding: 13.5px 20px;
+  box-sizing: border-box;
+  gap: 290px;
+  font-size: 40px;
+}
+.header {
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1225px) {
+  .rewards-login {
+    gap: 239px;
+  }
+  .logo-nav {
+    gap: 236px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .rewards-login {
+    gap: 120px;
+  }
+  .logo-nav {
+    gap: 118px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rewards-login {
+    gap: 60px;
+  }
+  .logo-nav {
+    gap: 59px;
+  }
+}

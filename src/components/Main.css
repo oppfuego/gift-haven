@@ -1,0 +1,74 @@
+.welcome-darnell {
+  margin: 0;
+  width: 678.1px;
+  position: relative;
+  font-size: inherit;
+  line-height: 53px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.welcome-message {
+  width: 850px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.your-personal-dashboard {
+  width: 849.4px;
+  position: relative;
+  font-size: 18px;
+  line-height: 22px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.greeting,
+.greeting-wrapper,
+.main {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.greeting {
+  flex: 1;
+  background-color: #eee;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 81.5px 20px;
+  box-sizing: border-box;
+  gap: 16px;
+}
+.greeting-wrapper,
+.main {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.main {
+  flex-direction: column;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: Archivo;
+}
+@media screen and (max-width: 750px) {
+  .welcome-darnell {
+    font-size: 38px;
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcome-darnell {
+    font-size: 29px;
+    line-height: 32px;
+  }
+}

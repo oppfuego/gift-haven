@@ -1,0 +1,148 @@
+.category-items-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.festivals3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 103px;
+}
+.category-list {
+  height: 273px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  max-width: 100%;
+}
+.category-list-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.family2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 76px;
+}
+.category-list1 {
+  height: 273px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  max-width: 100%;
+}
+.category-list-item {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.close-ones2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.category-list2 {
+  height: 273px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  max-width: 100%;
+}
+.category-list-inner {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.luxury2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 81px;
+}
+.card-categories,
+.category-list3 {
+  align-items: center;
+  gap: 24px;
+  max-width: 100%;
+}
+.category-list3 {
+  height: 273px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-categories {
+  width: 1680px;
+  display: grid;
+  flex-direction: row;
+  justify-content: flex-start;
+  grid-template-columns: repeat(4, minmax(301px, 1fr));
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1525px) {
+  .card-categories {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(301px, 523px));
+  }
+}
+@media screen and (max-width: 850px) {
+  .card-categories {
+    grid-template-columns: minmax(301px, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .close-ones2,
+  .family2,
+  .festivals3,
+  .luxury2 {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
